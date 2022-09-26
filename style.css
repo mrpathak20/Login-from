@@ -1,0 +1,43 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+button{
+    background-color: aliceblue;
+    width: 50%;
+    color: brown;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+
+}
+form {
+    border: 3px solid brown;
+
+}
+input[type=text]{
+    width: 50%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+input[type=Password] {
+    width: 50%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+button:hover{
+    opacity: 0.7;
+
+}
+.container{
+    padding: 25px;
+    background-color: bisque;
+}
